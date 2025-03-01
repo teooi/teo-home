@@ -180,20 +180,23 @@ header img {
 
     .other-links {
         display: flex;
-        flex-wrap: nowrap; 
+        align-items: center;
         justify-content: center;
-        gap: 8px;
-        overflow-x: auto; 
-        white-space: nowrap;
+        flex-wrap: wrap;
+        gap: 8px; 
     }
-
+    
+    .other-links .bracket {
+        display: inline; 
+        font-weight: bold;
+    }
+    
     .other-links a {
         display: inline; 
-        white-space: nowrap; 
-    }
-
-    .bracket {
-        display: inline; 
+        text-decoration: none;
+        color: #007bff;
+        font-weight: 600;
+        white-space: nowrap;
     }
 
     .contribution-image {
