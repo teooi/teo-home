@@ -10,6 +10,16 @@ header {
     margin-bottom: 40px;
 }
 
+img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 header img {
     width: 400px;
     border-radius: 10%;
