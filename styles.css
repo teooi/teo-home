@@ -182,21 +182,23 @@ header img {
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-wrap: wrap;
-        gap: 8px; 
+        gap: 5px; 
+        flex-wrap: wrap; 
+        white-space: nowrap; 
     }
     
     .other-links .bracket {
-        display: inline; 
-        font-weight: bold;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
     }
     
     .other-links a {
-        display: inline; 
+        display: inline-block;
         text-decoration: none;
         color: #007bff;
-        font-weight: 600;
-        white-space: nowrap;
+        white-space: nowrap; 
+        font-weight: normal; 
     }
 
     .contribution-image {
