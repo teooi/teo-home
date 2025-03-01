@@ -130,3 +130,64 @@ header img {
 .bracket {
     color: #000; 
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px; 
+    }
+
+    header img {
+        width: 80%; 
+    }
+
+    .about-me {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .about-me img {
+        width: 70%; 
+    }
+
+    .links-container {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .projects-title, .other-title {
+        margin-left: 20px;
+        font-size: 1.5em;
+    }
+
+    .project {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .project-text {
+        max-width: 90%;
+    }
+
+    .project img, .project-gif {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .other-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contribution-image {
+        width: 90%;
+    }
+
+    .back-container {
+        text-align: center;
+        display: block;
+    }
+}
+
