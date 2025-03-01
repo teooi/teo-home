@@ -1,0 +1,132 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 40px;
+    line-height: 1.8;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    width: 400px;
+    border-radius: 10%;
+}
+
+.about-me, .projects, .other {
+    max-width: 1000px;
+    margin: 0 auto 40px;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-me img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+.about-me .text {
+    flex: 1;
+    max-width: 700px;
+}
+
+.links-container {
+    display: flex;
+    gap: 40px;
+}
+
+.links-container a, .project-links a, .inline-link, .other-links a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.github-logo {
+    width: 30px !important;
+}
+
+.projects-title, .other-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 40px;
+}
+
+.projects-icon, .other-icon {
+    width: 50px;
+    position: relative;
+    top: -5px;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.project-text {
+    flex: 1;
+    max-width: 800px;
+}
+
+.project-text h3 {
+    font-weight: 550; 
+}
+
+
+.project img, .project-gif {
+    width: 150px;
+    object-fit: cover;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.project-gif {
+    width: 300px !important;
+}
+
+.other-links {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.space {
+    width: 30px;
+    display: inline-block;
+}
+
+.contribution-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.back-container {
+    display: inline-block; 
+}
+
+.back-link {
+    text-decoration: none;  
+    color: #007bff;        
+    font-weight: 600;
+}
+
+.back-link:visited,
+.back-link:active,
+.back-link:hover {
+    color: #007bff;
+}
+
+.bracket {
+    color: #000; 
+}
