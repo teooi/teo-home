@@ -131,6 +131,8 @@ header img {
     color: #000; 
 }
 
+/* FOR MOBILE SUPPORT*/
+
 @media (max-width: 768px) {
     body {
         padding: 20px; 
@@ -177,8 +179,21 @@ header img {
     }
 
     .other-links {
-        flex-direction: column;
-        align-items: center;
+        display: flex;
+        flex-wrap: nowrap; 
+        justify-content: center;
+        gap: 8px;
+        overflow-x: auto; 
+        white-space: nowrap;
+    }
+
+    .other-links a {
+        display: inline; 
+        white-space: nowrap; 
+    }
+
+    .bracket {
+        display: inline; 
     }
 
     .contribution-image {
