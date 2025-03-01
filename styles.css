@@ -157,57 +157,29 @@ header img {
         align-items: center;
     }
 
-    .projects-title, .other-title {
-        margin-left: 20px;
-        font-size: 1.5em;
+    .projects-title {
+        margin-left: 10px;
+        font-size: 1.5em; 
     }
 
     .project {
         flex-direction: column;
         align-items: center;
-        padding-left: 0;
         text-align: center;
+        padding-left: 0;
     }
 
-    .project-text {
-        max-width: 90%;
-    }
-
-    .project img, .project-gif {
-        width: 80%;
+    .project img,
+    .project-gif {
+        width: 90%;
         margin: 10px 0;
     }
 
+    .other {
+        display: none !important;
+    }
+
     .other-links {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 5px; 
-        flex-wrap: wrap; 
-        white-space: nowrap; 
-    }
-    
-    .other-links .bracket {
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .other-links a {
-        display: inline-block;
-        text-decoration: none;
-        color: #007bff;
-        white-space: nowrap; 
-        font-weight: normal; 
-    }
-
-    .contribution-image {
-        width: 90%;
-    }
-
-    .back-container {
-        text-align: center;
-        display: block;
+        display: none; 
     }
 }
-
