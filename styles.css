@@ -189,6 +189,25 @@ footer a {
     text-decoration: none;
 }
 
+.other-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 20%; 
+    height: auto;
+    border-radius: 10px;
+    margin-left: 4%; 
+}
+
+.contribution-image {
+    display: block;
+    margin: 20px auto;
+    width: 30%; 
+    height: auto;
+    aspect-ratio: 4 / 3;  
+}
+
+/* MOBILE SUPPORT */
+
 @media (max-width: 768px) {
     body {
         padding: 20px;
